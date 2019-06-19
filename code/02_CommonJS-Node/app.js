@@ -12,6 +12,7 @@ let uniq = require('uniq')
 console.log(module1.data);
 module1.bar()
 module1.foo()
+module1.demo()
 module2()
 console.log(module3.schoolObj);
 console.log(module3.stuArr)

@@ -3,3 +3,10 @@
  * export default
  */
 
+export default {
+  stuName:'kobe',
+  setStuName(name){
+    this.stuName = name
+  }
+}
+

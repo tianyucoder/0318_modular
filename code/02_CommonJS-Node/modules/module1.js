@@ -9,8 +9,13 @@ module.exports = {
   }
 }
 
+exports.demo = function () {
+  console.log('demo')
+}
+
 /*
 * 有一个默认存在的关系式：module.exports = exports = {}
+* 两种暴露方法同时使用的时候，以module.exports
 * */
 
 
