@@ -18,3 +18,4 @@ console.log(module3.stuArr)
 let result = uniq([1,3,3,3,2,2,2,5,6,5,4,9,8,7,11,10])
 console.log(result);
 
+
