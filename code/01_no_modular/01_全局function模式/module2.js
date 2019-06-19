@@ -1,4 +1,4 @@
-let data2 = 'module2 other data'
+let data = 'module2 other data'
 
 //与另一个模块中的函数冲突了
 function foo() {
