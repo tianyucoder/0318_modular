@@ -27,13 +27,14 @@ console.log(_module4.default.stuName);
 _module4.default.setStuName('wade3');
 console.log(_module4.default.stuName);
 (0, _jquery2.default)('body').css('background', 'skyblue');
+//console.log(stuName);
+console.log(_module3.a);
 },{"./module1":2,"./module2":3,"./module3":4,"jquery":5}],2:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.foo = foo;
 exports.bar = bar;
 /*
 * 分别暴露
@@ -85,6 +86,7 @@ exports.default = {
     this.stuName = name;
   }
 };
+var a = exports.a = 1;
 },{}],5:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.4.1

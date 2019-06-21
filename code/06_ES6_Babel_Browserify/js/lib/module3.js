@@ -14,3 +14,4 @@ exports.default = {
     this.stuName = name;
   }
 };
+var a = exports.a = 1;

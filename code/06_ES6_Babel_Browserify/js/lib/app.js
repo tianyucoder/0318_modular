@@ -1,6 +1,6 @@
 'use strict';
 
-var _module = require('./module1');
+var _module = require('module1');
 
 var _module2 = require('./module2');
 
@@ -26,3 +26,5 @@ console.log(_module4.default.stuName);
 _module4.default.setStuName('wade3');
 console.log(_module4.default.stuName);
 (0, _jquery2.default)('body').css('background', 'skyblue');
+//console.log(stuName);
+console.log(_module3.a);

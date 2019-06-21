@@ -9,9 +9,9 @@ module.exports = {
   }
 }
 
-exports.demo = function () {
+/*exports.demo = function () {
   console.log('demo')
-}
+}*/
 
 /*
 * 有一个默认存在的关系式：module.exports = exports = {}

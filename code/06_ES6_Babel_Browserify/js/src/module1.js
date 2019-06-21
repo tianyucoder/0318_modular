@@ -10,3 +10,4 @@ export function foo() {
 export function bar() {
   console.log('module1---foo被执行了')
 }
+
